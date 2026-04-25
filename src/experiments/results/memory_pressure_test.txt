@@ -1,0 +1,33 @@
+Workload: mem.cpp (continuous allocation)
+PID: 20
+
+Minor/sec: 1 | Major/sec: 600
+HIGH MEMORY PRESSURE
+
+Minor/sec: 1 | Major/sec: 700
+HIGH MEMORY PRESSURE
+
+
+
+
+root@46d6962472c3:/app/src/probes# ./pf_moniter 
+Enter the PID : 20
+major faults : 6432 | minor faults : 1
+major faults : 6745 | minor faults : 1
+major faults : 6999 | minor faults : 1
+major faults : 7566 | minor faults : 1
+major faults : 8133 | minor faults : 1
+major faults : 8700 | minor faults : 1
+major faults : 9002 | minor faults : 1
+major faults : 9267 | minor faults : 1
+major faults : 9834 | minor faults : 1
+major faults : 10401 | minor faults : 1
+major faults : 10968 | minor faults : 1
+major faults : 11254 | minor faults : 1
+major faults : 11535 | minor faults : 1
+major faults : 12102 | minor faults : 1
+major faults : 12669 | minor faults : 1
+major faults : 13236 | minor faults : 1
+major faults : 13236 | minor faults : 1
+major faults : 13803 | minor faults : 1
+

@@ -38,8 +38,3 @@ Runtime Actions
 ## Status
 
 Initial setup
-
-
-## Experiments
-
-Basic memory workload shows sustained high major page fault rate, indicating strong memory pressure under continuous allocation.
