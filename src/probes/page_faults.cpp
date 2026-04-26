@@ -16,6 +16,8 @@ int main(){
 	long prev_major, prev_minor;
 	bool first = true;
 
+	int cooldown = 0;
+
 	while(true){
 		string path = "/proc/" + to_string(pid) + "/stat";
 		ifstream file(path);
@@ -41,17 +43,23 @@ int main(){
 
 		cout << "major faults : " << major_faults << " | minor faults : " << minor_faults <<endl;
 
+		if(cooldown > 0){
+			cooldown--;
+		}
+
 		if(!first){
 			long major_rate = major_faults - prev_major;
 			long minor_rate = minor_faults - prev_minor;
 
 			cout << "Major / sec : " << major_rate << " | Minor / sec : " << minor_rate << endl;
 
-			if(major_rate > 500){
+			if(major_rate > 500 && cooldown == 0){
 				cout << "HIGH MEMORY PRESSURE -> throttling process" << endl;
 				kill(pid, SIGSTOP); //-> pause the process for some time. (coz creating high memory pressure)
-				sleep(1);
+				usleep(200000); // 200 milisecond
 				kill(pid, SIGCONT);
+
+				cooldown = 3;
 			} 
 		}
 
