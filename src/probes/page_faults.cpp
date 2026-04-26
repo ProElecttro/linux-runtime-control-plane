@@ -12,6 +12,9 @@ int main(){
 	cout << "Enter the PID : ";
 	cin >> pid;
 
+	long prev_major, prev_minor;
+	bool first = true;
+
 	while(true){
 		string path = "/proc/" + to_string(pid) + "/stat";
 		ifstream file(path);
@@ -37,6 +40,16 @@ int main(){
 
 		cout << "major faults : " << major_faults << " | minor faults : " << minor_faults <<endl;
 
+		if(!first){
+			long major_rate = major_faults - prev_major;
+			long minor_rate = minor_faults - prev_minor;
+
+			cout << "Major / sec : " << major_rate << " | Minor / sec : " << minor_rate << endl;
+		}
+
+		prev_major = major_faults;
+		prev_minor = minor_faults;
+		first = false;
 
 		sleep(1);
 	}
