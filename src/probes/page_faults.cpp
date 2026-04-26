@@ -4,6 +4,7 @@
 
 #include <vector>
 #include <unistd.h> // coz using sleep()
+#include <signal.h>
 
 using namespace std;
 
@@ -45,6 +46,13 @@ int main(){
 			long minor_rate = minor_faults - prev_minor;
 
 			cout << "Major / sec : " << major_rate << " | Minor / sec : " << minor_rate << endl;
+
+			if(major_rate > 500){
+				cout << "HIGH MEMORY PRESSURE -> throttling process" << endl;
+				kill(pid, SIGSTOP); //-> pause the process for some time. (coz creating high memory pressure)
+				sleep(1);
+				kill(pid, SIGCONT);
+			} 
 		}
 
 		prev_major = major_faults;
