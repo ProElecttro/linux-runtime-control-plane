@@ -17,6 +17,8 @@ int main(){
 	bool first = true;
 
 	int cooldown = 0;
+	int count = 0;
+	double avg_rate = 0.0;
 
 	while(true){
 		string path = "/proc/" + to_string(pid) + "/stat";
@@ -53,14 +55,17 @@ int main(){
 
 			cout << "Major / sec : " << major_rate << " | Minor / sec : " << minor_rate << endl;
 
-			if(major_rate > 500 && cooldown == 0){
+			if(major_rate > avg_rate * 1.5 && cooldown == 0){
 				cout << "HIGH MEMORY PRESSURE -> throttling process" << endl;
 				kill(pid, SIGSTOP); //-> pause the process for some time. (coz creating high memory pressure)
-				usleep(200000); // 200 milisecond
+				usleep(200000); // 200 milliseconds
 				kill(pid, SIGCONT);
 
 				cooldown = 3;
 			} 
+
+			avg_rate = (avg_rate * count + major_rate) / (count + 1);
+			count++;
 		}
 
 		prev_major = major_faults;
