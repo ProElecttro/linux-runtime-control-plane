@@ -36,6 +36,8 @@ int main(){
 	int count = 0;
 	double avg_rate = 0.0;
 
+	double alpha = 0.1;
+
 	while(true){
 		string path = "/proc/" + to_string(pid) + "/stat";
 		ifstream file(path);
@@ -87,8 +89,7 @@ int main(){
 			if(count < 5){
 				cout << "Warming Up..." << endl;
 			}else{
-				double pressure = (avg_rate > 0) ? major_rate / avg_rate : 1.0;
-
+				double pressure = (avg_rate > 0) ? (major_rate + alpha * minor_rate) / avg_rate : 1.0;
 
 				if(pressure > 2 && cooldown == 0){ // cooldown only limits the strong actions
 					cooldown = 3;
