@@ -84,7 +84,7 @@ int main(){
 			cout << "Major / sec : " << major_rate << " | Minor / sec : " << minor_rate << endl;
 			
 			bool throttled = false;
-			double effective_rate = avg_rate * count + major_rate;
+			double effective_rate = major_rate + alpha * minor_rate;
 
 			if(count < 5){
 				cout << "Warming Up..." << endl;
