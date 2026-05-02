@@ -13,7 +13,7 @@ Periods with 0 faults confirm process is being successfully stalled.
 System shows oscillatory behavior
 Pattern: spike → throttle → drop → spike → repeat.
 
-Minor faults dominate later
+Minor faults dominate later***********************IMP* : -> this is the key takeaway
 Major faults drop, but minor faults remain very high (~15k–30k/sec).
 
 Pressure becomes inflated
