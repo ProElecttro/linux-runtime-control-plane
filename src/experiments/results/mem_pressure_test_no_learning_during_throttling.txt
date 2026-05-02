@@ -1,0 +1,254 @@
+root@46d6962472c3:/app/src/probes# ./pf_moniter 
+Enter the PID : 19
+Major / sec : 2345 | Minor / sec : 10656
+Warming Up...
+Major / sec : 2128 | Minor / sec : 14209
+Warming Up...
+Major / sec : 1137 | Minor / sec : 11507
+Warming Up...
+Major / sec : 1118 | Minor / sec : 16380
+Warming Up...
+Major / sec : 896 | Minor / sec : 18754
+Warming Up...
+Major / sec : 630 | Minor / sec : 20373
+STRONG throttle | pressure: 5.05062
+Major / sec : 431 | Minor / sec : 21654
+MEDIUM throttle | pressure: 5.03463
+Major / sec : 327 | Minor / sec : 22224
+MEDIUM throttle | pressure: 5.02628
+Major / sec : 248 | Minor / sec : 22721
+STRONG throttle | pressure: 5.01993
+Major / sec : 162 | Minor / sec : 21337
+MEDIUM throttle | pressure: 5.01302
+Major / sec : 144 | Minor / sec : 22113
+MEDIUM throttle | pressure: 5.01157
+Major / sec : 113 | Minor / sec : 21397
+STRONG throttle | pressure: 5.00908
+Major / sec : 93 | Minor / sec : 22073
+MEDIUM throttle | pressure: 5.00747
+Major / sec : 72 | Minor / sec : 20295
+MEDIUM throttle | pressure: 5.00579
+Major / sec : 67 | Minor / sec : 20602
+STRONG throttle | pressure: 5.00538
+Major / sec : 77 | Minor / sec : 20335
+MEDIUM throttle | pressure: 5.00619
+Major / sec : 39 | Minor / sec : 19895
+MEDIUM throttle | pressure: 5.00313
+Major / sec : 43 | Minor / sec : 21569
+STRONG throttle | pressure: 5.00346
+Major / sec : 42 | Minor / sec : 22229
+MEDIUM throttle | pressure: 5.00337
+Major / sec : 32 | Minor / sec : 18441
+MEDIUM throttle | pressure: 5.00257
+Major / sec : 22 | Minor / sec : 11656
+STRONG throttle | pressure: 5.00177
+Major / sec : 13 | Minor / sec : 9722
+MEDIUM throttle | pressure: 5.00104
+Major / sec : 30 | Minor / sec : 23725
+MEDIUM throttle | pressure: 5.00241
+Major / sec : 33 | Minor / sec : 24085
+STRONG throttle | pressure: 5.00265
+Major / sec : 32 | Minor / sec : 21039
+MEDIUM throttle | pressure: 5.00257
+Major / sec : 21 | Minor / sec : 20820
+MEDIUM throttle | pressure: 5.00169
+Major / sec : 26 | Minor / sec : 20567
+STRONG throttle | pressure: 5.00209
+Major / sec : 15 | Minor / sec : 18636
+MEDIUM throttle | pressure: 5.00121
+Major / sec : 18 | Minor / sec : 20113
+MEDIUM throttle | pressure: 5.00145
+Major / sec : 18 | Minor / sec : 18039
+STRONG throttle | pressure: 5.00145
+Major / sec : 17 | Minor / sec : 19051
+MEDIUM throttle | pressure: 5.00137
+Major / sec : 18 | Minor / sec : 19437
+MEDIUM throttle | pressure: 5.00145
+Major / sec : 9 | Minor / sec : 18468
+STRONG throttle | pressure: 5.00072
+Major / sec : 4 | Minor / sec : 17364
+MEDIUM throttle | pressure: 5.00032
+Major / sec : 11 | Minor / sec : 18575
+MEDIUM throttle | pressure: 5.00088
+Major / sec : 16 | Minor / sec : 21087
+STRONG throttle | pressure: 5.00129
+Major / sec : 12 | Minor / sec : 17443
+MEDIUM throttle | pressure: 5.00096
+Major / sec : 12 | Minor / sec : 22957
+MEDIUM throttle | pressure: 5.00096
+Major / sec : 11 | Minor / sec : 20899
+STRONG throttle | pressure: 5.00088
+Major / sec : 18 | Minor / sec : 21849
+MEDIUM throttle | pressure: 5.00145
+Major / sec : 9 | Minor / sec : 23901
+MEDIUM throttle | pressure: 5.00072
+Major / sec : 10 | Minor / sec : 21368
+STRONG throttle | pressure: 5.0008
+Major / sec : 8 | Minor / sec : 18211
+MEDIUM throttle | pressure: 5.00064
+Major / sec : 1 | Minor / sec : 8859
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 6 | Minor / sec : 12027
+STRONG throttle | pressure: 5.00048
+Major / sec : 7 | Minor / sec : 24472
+MEDIUM throttle | pressure: 5.00056
+Major / sec : 6 | Minor / sec : 23593
+MEDIUM throttle | pressure: 5.00048
+Major / sec : 5 | Minor / sec : 23522
+STRONG throttle | pressure: 5.0004
+Major / sec : 14 | Minor / sec : 21499
+MEDIUM throttle | pressure: 5.00112
+Major / sec : 8 | Minor / sec : 19464
+MEDIUM throttle | pressure: 5.00064
+Major / sec : 7 | Minor / sec : 21252
+STRONG throttle | pressure: 5.00056
+Major / sec : 1 | Minor / sec : 21218
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 6 | Minor / sec : 21257
+MEDIUM throttle | pressure: 5.00048
+Major / sec : 3 | Minor / sec : 20819
+STRONG throttle | pressure: 5.00024
+Major / sec : 3 | Minor / sec : 21310
+MEDIUM throttle | pressure: 5.00024
+Major / sec : 4 | Minor / sec : 18795
+MEDIUM throttle | pressure: 5.00032
+Major / sec : 5 | Minor / sec : 20972
+STRONG throttle | pressure: 5.0004
+Major / sec : 5 | Minor / sec : 18156
+MEDIUM throttle | pressure: 5.0004
+Major / sec : 1 | Minor / sec : 20467
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 1 | Minor / sec : 18066
+STRONG throttle | pressure: 5.00008
+Major / sec : 1 | Minor / sec : 18622
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 7 | Minor / sec : 20679
+MEDIUM throttle | pressure: 5.00056
+Major / sec : 3 | Minor / sec : 19852
+STRONG throttle | pressure: 5.00024
+Major / sec : 3 | Minor / sec : 18931
+MEDIUM throttle | pressure: 5.00024
+Major / sec : 4 | Minor / sec : 15386
+MEDIUM throttle | pressure: 5.00032
+Major / sec : 5 | Minor / sec : 12860
+STRONG throttle | pressure: 5.0004
+Major / sec : 2 | Minor / sec : 9062
+MEDIUM throttle | pressure: 5.00016
+Major / sec : 0 | Minor / sec : 10192
+MEDIUM throttle | pressure: 5
+Major / sec : 2 | Minor / sec : 10963
+STRONG throttle | pressure: 5.00016
+Major / sec : 1 | Minor / sec : 12165
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 0 | Minor / sec : 4416
+MEDIUM throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 0
+STRONG throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 0
+MEDIUM throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 0
+MEDIUM throttle | pressure: 5
+Major / sec : 2 | Minor / sec : 10265
+STRONG throttle | pressure: 5.00016
+Major / sec : 0 | Minor / sec : 0
+MEDIUM throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 0
+MEDIUM throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 0
+STRONG throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 0
+MEDIUM throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 5359
+MEDIUM throttle | pressure: 5
+Major / sec : 2 | Minor / sec : 8809
+STRONG throttle | pressure: 5.00016
+Major / sec : 2 | Minor / sec : 7830
+MEDIUM throttle | pressure: 5.00016
+Major / sec : 0 | Minor / sec : 7451
+MEDIUM throttle | pressure: 5
+Major / sec : 1 | Minor / sec : 6449
+STRONG throttle | pressure: 5.00008
+Major / sec : 1 | Minor / sec : 12922
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 1 | Minor / sec : 10269
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 0 | Minor / sec : 3407
+STRONG throttle | pressure: 5
+Major / sec : 1 | Minor / sec : 17908
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 1 | Minor / sec : 9825
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 2 | Minor / sec : 7282
+STRONG throttle | pressure: 5.00016
+Major / sec : 1 | Minor / sec : 17880
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 0 | Minor / sec : 17450
+MEDIUM throttle | pressure: 5
+Major / sec : 1 | Minor / sec : 17821
+STRONG throttle | pressure: 5.00008
+Major / sec : 1 | Minor / sec : 14894
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 0 | Minor / sec : 18208
+MEDIUM throttle | pressure: 5
+Major / sec : 1 | Minor / sec : 14840
+STRONG throttle | pressure: 5.00008
+Major / sec : 3 | Minor / sec : 17003
+MEDIUM throttle | pressure: 5.00024
+Major / sec : 0 | Minor / sec : 17827
+MEDIUM throttle | pressure: 5
+Major / sec : 3 | Minor / sec : 17371
+STRONG throttle | pressure: 5.00024
+Major / sec : 0 | Minor / sec : 17503
+MEDIUM throttle | pressure: 5
+Major / sec : 1 | Minor / sec : 17666
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 1 | Minor / sec : 14695
+STRONG throttle | pressure: 5.00008
+Major / sec : 0 | Minor / sec : 17397
+MEDIUM throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 14495
+MEDIUM throttle | pressure: 5
+Major / sec : 3 | Minor / sec : 14983
+STRONG throttle | pressure: 5.00024
+Major / sec : 0 | Minor / sec : 17447
+MEDIUM throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 17527
+MEDIUM throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 17848
+STRONG throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 17834
+MEDIUM throttle | pressure: 5
+Major / sec : 3 | Minor / sec : 17836
+MEDIUM throttle | pressure: 5.00024
+Major / sec : 1 | Minor / sec : 20157
+STRONG throttle | pressure: 5.00008
+Major / sec : 0 | Minor / sec : 9848
+MEDIUM throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 9264
+MEDIUM throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 10258
+STRONG throttle | pressure: 5
+Major / sec : 2 | Minor / sec : 19143
+MEDIUM throttle | pressure: 5.00016
+Major / sec : 1 | Minor / sec : 20419
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 0 | Minor / sec : 20248
+STRONG throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 18682
+MEDIUM throttle | pressure: 5
+Major / sec : 2 | Minor / sec : 20722
+MEDIUM throttle | pressure: 5.00016
+Major / sec : 0 | Minor / sec : 20485
+STRONG throttle | pressure: 5
+Major / sec : 1 | Minor / sec : 25014
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 1 | Minor / sec : 22420
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 0 | Minor / sec : 11736
+STRONG throttle | pressure: 5
+Major / sec : 1 | Minor / sec : 14832
+MEDIUM throttle | pressure: 5.00008
+Major / sec : 0 | Minor / sec : 20923
+MEDIUM throttle | pressure: 5
+Major / sec : 0 | Minor / sec : 24044
+STRONG throttle | pressure:

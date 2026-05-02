@@ -82,25 +82,35 @@ int main(){
 			long minor_rate = max(0L, minor_faults - prev_minor);
 
 			cout << "Major / sec : " << major_rate << " | Minor / sec : " << minor_rate << endl;
-
-			avg_rate = (avg_rate * count + major_rate) / (count + 1);
-			count++;
+			
+			bool throttled = false;
+			double effective_rate = avg_rate * count + major_rate;
 
 			if(count < 5){
 				cout << "Warming Up..." << endl;
+				avg_rate += (effective_rate - avg_rate) / (count + 1);
+				count++;
 			}else{
-				double pressure = (avg_rate > 0) ? (major_rate + alpha * minor_rate) / avg_rate : 1.0;
+				double pressure = (avg_rate > 0) ? (effective_rate) / avg_rate : 1.0;
 
 				if(pressure > 2 && cooldown == 0){ // cooldown only limits the strong actions
 					cooldown = 3;
 					cout << "STRONG throttle | pressure: " << pressure << endl;
 					throttle(pid, 500000);
+					throttled = true;
 				}else if(pressure > 1.5){
 					cout << "MEDIUM throttle | pressure: " << pressure << endl;
 					throttle(pid, 200000);
+					throttled = true;
 				}else if(pressure > 1.2){
 					cout << "LIGHT throttle | pressure: " << pressure << endl;
 					throttle(pid, 100000);
+					throttled = true;
+				}
+
+				if(!throttled){
+					avg_rate += (effective_rate - avg_rate) / (count + 1);
+					count++;
 				}
 			}
 		}
