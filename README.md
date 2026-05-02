@@ -35,11 +35,29 @@ Runtime Actions
 - Linux (eBPF, perf)
 - Python (analysis)
 
+Current Status
+
+Basic setup is working. Signals are being collected and printed.
+Control logic is still simple and being tuned.
+
+Experiments
+Memory-heavy workload shows consistently high major page faults
+This clearly indicates strong memory pressure during continuous allocation
+System is able to detect this, next step is improving how it reacts
+
 ## Status
 
 Initial setup
 
+Current Status
+
+Basic setup is working. Signals are being collected and printed.
+Control logic is still simple and being tuned.
 
 ## Experiments
 
 Basic memory workload shows sustained high major page fault rate, indicating strong memory pressure under continuous allocation.
+
+Memory-heavy workload shows consistently high major page faults
+This clearly indicates strong memory pressure during continuous allocation
+System is able to detect this, next step is improving how it reacts
